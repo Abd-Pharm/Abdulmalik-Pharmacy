@@ -36,3 +36,70 @@ footer{background:#062f52;color:#d8e8f4;padding:55px 0 85px}.footer-grid{display
  .hero-grid,.contact-grid{grid-template-columns:1fr}.hero{padding-top:55px}.hero-visual{min-height:270px}.grid-3{grid-template-columns:1fr}.grid-4{grid-template-columns:1fr 1fr}.badges{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);z-index:55;padding:8px;gap:8px}.mobilebar a{flex:1;text-align:center;padding:9px;border-radius:10px;background:var(--sky);font-size:12px;font-weight:850}.whatsapp{bottom:72px}
 }
 @media(max-width:520px){.grid-4,.badges,.footer-grid{grid-template-columns:1fr}.section{padding:58px 0}h1{font-size:42px}.page-hero h1{font-size:38px}}
+
+
+/* ===== Abdulmalik Pharmacy brand upgrade ===== */
+:root{
+  --brand-blue:#1679B8;--brand-cyan:#20B7D0;--brand-green:#A8D36A;
+  --navy:#083B63;--soft:#F2FAFC;
+}
+.brand{gap:10px}
+.logo-img{width:185px;height:auto;display:block}
+header .nav{min-height:82px}
+.links{gap:18px}
+.links a{white-space:nowrap}
+.btn{transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.btn:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(0,63,115,.12)}
+.hero{background:
+ radial-gradient(circle at 88% 18%,rgba(32,183,208,.14),transparent 28%),
+ radial-gradient(circle at 78% 85%,rgba(168,211,106,.16),transparent 25%),
+ linear-gradient(135deg,#f9fdff 0%,#eef9fb 100%)}
+.hero-visual{background:
+ linear-gradient(145deg,rgba(22,121,184,.08),rgba(32,183,208,.12)),#fff;
+ border:1px solid rgba(22,121,184,.10)}
+.service-card{position:relative;overflow:hidden}
+.service-card:after{content:"";position:absolute;width:90px;height:90px;border-radius:50%;
+ right:-35px;bottom:-35px;background:rgba(32,183,208,.07)}
+.logo-footer{width:220px;max-width:100%;margin-bottom:12px}
+footer a:hover{color:#fff}
+@media(max-width:850px){.logo-img{width:165px}header .btn{display:none}}
+@media(max-width:520px){.logo-img{width:150px}}
+
+
+/* ===== FINAL VISUAL UPGRADE: REAL ABDULMALIK PHARMACY ===== */
+:root{--brand:#147bb8;--brand-dark:#0a4f7c;--teal:#1fb6c9;--lime:#a7ce63;--ink:#18313f;--paper:#ffffff;--soft2:#f3fafb}
+html{scroll-behavior:smooth}
+body{color:var(--ink)}
+header{backdrop-filter:blur(12px);background:rgba(255,255,255,.96);border-bottom:1px solid rgba(20,123,184,.08)}
+.logo-img{width:205px;height:auto;max-height:62px;object-fit:contain}
+.hero{padding:72px 0 62px;background:radial-gradient(circle at 92% 12%,rgba(31,182,201,.16),transparent 28%),radial-gradient(circle at 68% 100%,rgba(167,206,99,.14),transparent 28%),linear-gradient(135deg,#fbfeff 0%,#eef9fb 100%)}
+.hero-photo-wrap{position:relative;min-height:460px;border-radius:26px;overflow:hidden;box-shadow:0 24px 70px rgba(10,79,124,.18);background:#dceff3}
+.hero-photo-wrap img{width:100%;height:100%;min-height:460px;object-fit:cover;display:block}
+.hero-photo-wrap:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(4,53,78,.24))}
+.photo-tag{position:absolute;z-index:2;left:18px;bottom:18px;background:rgba(255,255,255,.94);padding:13px 16px;border-radius:14px;box-shadow:0 10px 28px rgba(0,0,0,.13);font-weight:700;color:var(--brand-dark)}
+.trust-strip{margin-top:-2px;background:var(--brand-dark);color:#fff;padding:18px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.trust-item{display:flex;gap:10px;align-items:center;justify-content:center;font-size:14px}.trust-dot{width:10px;height:10px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 5px rgba(167,206,99,.12)}
+.real-photo{width:100%;height:100%;object-fit:cover;display:block}.photo-card{border-radius:22px;overflow:hidden;background:#fff;border:1px solid rgba(10,79,124,.08);box-shadow:0 12px 32px rgba(10,79,124,.08)}.photo-card img{width:100%;height:230px;object-fit:cover}.photo-card .photo-copy{padding:18px 18px 20px}
+.gallery{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-auto-rows:220px;gap:16px}.gallery figure{margin:0;border-radius:18px;overflow:hidden;position:relative;background:#eef6f8}.gallery figure:first-child{grid-row:span 2}.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}.gallery figure:hover img{transform:scale(1.03)}.gallery figcaption{position:absolute;left:12px;bottom:12px;background:rgba(7,56,84,.78);color:#fff;padding:7px 10px;border-radius:8px;font-size:12px}
+.feature-band{background:linear-gradient(135deg,var(--brand-dark),#0b739c);color:#fff;border-radius:28px;padding:42px}.feature-band .muted{color:rgba(255,255,255,.78)}
+.local-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;background:#edf8ed;color:#356b35;border-radius:999px;font-size:13px;font-weight:700}.local-badge:before{content:"";width:8px;height:8px;background:#62a85d;border-radius:50%}
+.notice{padding:12px 14px;background:#fff8e7;border-left:4px solid #f0ba43;border-radius:10px;font-size:13px;color:#695323}
+@media(max-width:850px){.hero-photo-wrap,.hero-photo-wrap img{min-height:330px}.trust-grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:180px}.gallery figure:first-child{grid-column:span 2;grid-row:span 1}.logo-img{width:175px}}
+@media(max-width:560px){.hero{padding-top:34px}.trust-grid{grid-template-columns:1fr 1fr;gap:10px}.trust-item{justify-content:flex-start;font-size:12px}.gallery{grid-template-columns:1fr;grid-auto-rows:220px}.gallery figure:first-child{grid-column:auto}.feature-band{padding:28px 20px}.logo-img{width:158px}}
+
+/* ===== Production functionality upgrade ===== */
+.utility-strip{background:#083B63;color:#fff;font-size:13px}
+.utility-strip .container{display:flex;justify-content:space-between;gap:15px;padding:7px 0}
+.utility-strip a{color:#fff;font-weight:700}
+.form-help{font-size:13px;color:var(--muted);margin:0}
+.map-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.searchbar{display:flex;gap:10px;padding:10px;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);max-width:720px;margin:28px auto 0}
+.searchbar input{margin:0;border:0;padding:11px 14px;outline:none}
+.searchbar .btn{flex:0 0 auto}
+.category{cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
+.category:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.status-box{display:flex;gap:14px;align-items:flex-start;padding:18px;border-radius:16px;background:#eef8f6;border:1px solid #cfece7;margin-top:20px}
+.status-dot{width:10px;height:10px;border-radius:50%;background:var(--teal);margin-top:7px;flex:0 0 auto}
+.social-links{display:flex;gap:10px;flex-wrap:wrap}
+.social-links a{padding:9px 12px;border:1px solid rgba(255,255,255,.2);border-radius:10px}
+@media(max-width:700px){.utility-strip .container{font-size:11px}.searchbar{flex-direction:column}.searchbar .btn{width:100%}}
